@@ -22,7 +22,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .container {
-    width: 78%;
+    width: 83%;
     position:absolute;
     top:50%;
     left:50%;
@@ -33,15 +33,15 @@ body {
     align-items: center;
 }
 .description {
-    width: 50%;
+    width: 40%;
 }
 .description h1 {
     font-size: 50px;
-    margin-bottom:23px;
+    margin-bottom:27px;
     line-height: 1.1;
 }
 .description p {
-    font-size: 18px;
+    font-size: 16px;
 }
 .form {
     width: 50%;
@@ -64,8 +64,8 @@ body {
 }
 .form .signup {
     float: right;
-    width: 545px;
-    height: 485px;
+    width: 540px;
+    min-height: 474px;
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -84,7 +84,7 @@ input {
     border-radius: 5px;
     border-width: 1px;
     opacity: 0.8;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 input::placeholder {
     color:var(--Dark-Blue);
@@ -97,14 +97,14 @@ input:focus-visible {
 }
 button {
     width: 100%;
-    padding: 20px;
+    padding: 18px;
     background-color: var(---Green);
     border: inherit;
     color:white;
     text-transform: uppercase;
     border-radius: 5px;
     letter-spacing: 1.5px;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
 }
 button:hover {
